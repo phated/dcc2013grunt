@@ -54,5 +54,7 @@
 	* Cakefile (Coffeescript) - http://jashkenas.github.io/coffee-script/documentation/docs/cake.html
 	* Volofile - https://github.com/volojs/volo/wiki/Creating-a-volofile
 	* Jakefile - https://github.com/mde/jake
-	* Anything is better than Maven/Ant/Rake/Make for JavaScript projects
-* Grunt has a **community** - popularity = less code for you to write
+	* Anything in JS or CS is better than Maven/Ant/Rake/Make for JavaScript projects
+* Grunt's **community** is large - popularity = less code for you to write
+	* 685 gruntplugins
+	* Grunt-contrib: https://github.com/gruntjs
