@@ -25,3 +25,7 @@
 * Node.js - http://nodejs.org/
 * NPM - https://npmjs.org/
 * Get them into your stack!
+
+# But Why?
+
+![WHY?](http://i18.fastpic.ru/big/2011/0808/66/889d926b39b762816ac6daee50c7de66.jpg)

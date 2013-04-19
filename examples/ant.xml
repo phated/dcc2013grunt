@@ -1,0 +1,33 @@
+<!-- example from: http://stackoverflow.com/a/1010593 -->
+<project name="persist" >
+
+    <import file="../build/common-build.xml" />
+
+
+    <path id="compile.classpath.main">
+        <pathelement location="${common.jar}" />
+        <pathelement location="${domain.jar}" />
+        <pathelement location="${hibernate.jar}" />
+        <pathelement location="${commons-lang.jar}" />
+        <pathelement location="${spring.jar}" />
+    </path>
+
+
+    <path id="compile.classpath.test">
+        <pathelement location="${classes.dir.main}" />
+        <pathelement location="${testng.jar}" />
+        <pathelement location="${dbunit.jar}" />
+        <pathelement location="${easymock.jar}" />
+        <pathelement location="${commons-dbcp.jar}" />
+        <pathelement location="${oracle-jdbc.jar}" />
+        <path refid="compile.classpath.main" />
+    </path>
+
+
+    <path id="runtime.classpath.test">
+        <pathelement location="${classes.dir.test}" />
+        <path refid="compile.classpath.test" />
+    </path>
+
+
+</project>
