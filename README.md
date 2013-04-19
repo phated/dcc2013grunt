@@ -1,4 +1,4 @@
-# `> whois me`?
+# `> whois me`
 
 * https://github.com/phated
 * https://github.com/phated/grunt-jade
