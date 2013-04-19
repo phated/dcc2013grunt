@@ -34,3 +34,8 @@
 	* https://github.com/phated/dcc2013grunt/blob/master/examples/maven.xml
 	* https://github.com/phated/dcc2013grunt/blob/master/examples/ant.xml
 	![Just Say No](http://sealgreen.files.wordpress.com/2012/07/just-say-no.jpg)
+* Rake
+	* https://github.com/wycats/handlebars.js/blob/master/Rakefile
+	* **115 Lines!?!?!** to run 2 tests suites, a benchmark and compilation
+	* Good for ruby projects, but to JavaScript in JavaScript
+	* Extra dependencies FTL
