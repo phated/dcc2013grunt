@@ -15,6 +15,6 @@
 * Task Runner written in JavaScript, configured with JavaScript, tasks (plugins) written in JavaScript
 	![JS All The Way Down](http://lunar.lostgarden.com/gfx/TurtlesAllTheWayDown-small.jpg)
 * But Wait
-	> # This task requires you to have Ruby and Sass installed.
+	> ## This task requires you to have Ruby and Sass installed.
 
 	https://github.com/gruntjs/grunt-contrib-sass#sass-task
