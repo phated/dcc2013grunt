@@ -39,3 +39,9 @@
 	* **115 Lines!?!?!** to run 2 tests suites, a benchmark and compilation
 	* Good for ruby projects, but do JavaScript in JavaScript
 	* Extra technologies FTL
+* Make
+	* https://github.com/twitter/bootstrap/blob/master/Makefile
+	* Better
+	* Not cross-platform (well - kinda, http://gnuwin32.sourceforge.net/packages/make.htm :/ )
+	* Not modular
+	* Released in 1977 - can't we do better?
