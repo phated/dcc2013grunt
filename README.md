@@ -66,6 +66,7 @@
 	* Very minimal package
 	* Gives you `grunt` command
 	* Just bootstraps the local grunt
+	* Cool bash autocompletion - add `eval "$(grunt --completion=bash)"` to your ~/.bashrc
 * `npm install --save-dev grunt`
 	* Local install
 	* Saves to devDependencies
@@ -76,3 +77,14 @@
 	* Allows your gruntfile to import the plugin
 	* Again, saves to devDependencies to install again later
 
+# Grunt-init
+
+* Split into it's own module
+* Pain to install, update and use
+* Install it globally with `npm install -g grunt-init`
+* Git clone init templates into `~/.grunt-init/`
+* Supposedly going to be superseded by Yeoman's `yo` generator tool - http://yeoman.io/
+
+# Differences between 0.3 and 0.4
+
+* No more built-in tasks - http://gruntjs.com/upgrading-from-0.3-to-0.4#core-tasks-are-now-grunt-plugins
