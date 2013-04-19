@@ -37,5 +37,5 @@
 * Rake
 	* https://github.com/wycats/handlebars.js/blob/master/Rakefile
 	* **115 Lines!?!?!** to run 2 tests suites, a benchmark and compilation
-	* Good for ruby projects, but to JavaScript in JavaScript
+	* Good for ruby projects, but do JavaScript in JavaScript
 	* Extra dependencies FTL
