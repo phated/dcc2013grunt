@@ -33,7 +33,7 @@
 * Insanity: https://github.com/phated/dcc2013grunt/blob/master/insanity.md
 * Programmers Insanity: https://github.com/phated/dcc2013grunt/blob/master/programmers-insanity.md
 
-# Grunt > Others?
+# Grunt > Others
 
 * Maven & Ant
 	* https://github.com/phated/dcc2013grunt/blob/master/examples/maven.xml
