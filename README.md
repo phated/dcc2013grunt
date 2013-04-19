@@ -31,6 +31,6 @@
 ![WHY?](http://i18.fastpic.ru/big/2011/0808/66/889d926b39b762816ac6daee50c7de66.jpg)
 
 * Maven & Ant
-	https://github.com/phated/dcc2013grunt/blob/master/examples/maven.xml
-	https://github.com/phated/dcc2013grunt/blob/master/examples/ant.xml
+	* https://github.com/phated/dcc2013grunt/blob/master/examples/maven.xml
+	* https://github.com/phated/dcc2013grunt/blob/master/examples/ant.xml
 	![Just Say No](http://sealgreen.files.wordpress.com/2012/07/just-say-no.jpg)
