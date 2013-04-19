@@ -30,7 +30,10 @@
 
 ![WHY?](http://i18.fastpic.ru/big/2011/0808/66/889d926b39b762816ac6daee50c7de66.jpg)
 
-# Why Grunt over Others?
+* Insanity: https://github.com/phated/dcc2013grunt/blob/master/insanity.md
+* Programmers Insanity: https://github.com/phated/dcc2013grunt/blob/master/programmers-insanity.md
+
+# Grunt > Others?
 
 * Maven & Ant
 	* https://github.com/phated/dcc2013grunt/blob/master/examples/maven.xml
