@@ -41,7 +41,7 @@
 	* Extra technologies FTL
 * Make
 	* https://github.com/twitter/bootstrap/blob/master/Makefile
-	* Better
+	* Slightly better
 	* Not cross-platform (well - kinda, http://gnuwin32.sourceforge.net/packages/make.htm :/ )
 	* Not modular
 	* Released in 1977 - can't we do better?
