@@ -30,6 +30,8 @@
 
 ![WHY?](http://i18.fastpic.ru/big/2011/0808/66/889d926b39b762816ac6daee50c7de66.jpg)
 
+# Why Grunt over Others?
+
 * Maven & Ant
 	* https://github.com/phated/dcc2013grunt/blob/master/examples/maven.xml
 	* https://github.com/phated/dcc2013grunt/blob/master/examples/ant.xml
@@ -45,3 +47,9 @@
 	* Not cross-platform (well - kinda, http://gnuwin32.sourceforge.net/packages/make.htm :/ )
 	* Not modular
 	* Released in 1977 - can't we do better?
+* Other JS runners?
+	* Cakefile (Coffeescript) - http://jashkenas.github.io/coffee-script/documentation/docs/cake.html
+	* Volofile - https://github.com/volojs/volo/wiki/Creating-a-volofile
+	* Jakefile - https://github.com/mde/jake
+	* Anything is better than Maven/Ant/Rake/Make for JavaScript projects
+* Grunt has a **community** - popularity = less code for you to write
