@@ -58,3 +58,21 @@
 * Grunt's **community** is large - popularity = less code for you to write
 	* 685 gruntplugins
 	* Grunt-contrib: https://github.com/gruntjs
+
+# Installation
+
+* `npm install -g grunt-cli`
+	* Global install
+	* Very minimal package
+	* Gives you `grunt` command
+	* Just bootstraps the local grunt
+* `npm install --save-dev grunt`
+	* Local install
+	* Saves to devDependencies
+	* Used by grunt-cli to run grunt
+	* Allows for any version to be used (which was a problem with grunt 0.3)
+* `npm install --save-dev grunt-jade`
+	* Installs a plugin alongside grunt
+	* Allows your gruntfile to import the plugin
+	* Again, saves to devDependencies to install again later
+
