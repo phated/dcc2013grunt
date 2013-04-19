@@ -18,3 +18,9 @@
 	> # This task requires you to have Ruby and Sass installed.
 
 	https://github.com/gruntjs/grunt-contrib-sass#sass-task
+* Keep the dream alive! https://github.com/sindresorhus/grunt-sass
+
+# Requirements
+	* Node.js
+	* NPM
+	* Get them into your stack!
