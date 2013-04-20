@@ -257,17 +257,28 @@ grunt.registerMultiTask('dcc', 'Awesome Multi Task for DCC', function(){
 
 # APIs
 
-### Top Level
+### [grunt](http://gruntjs.com/api/grunt)
 
-* ~~`grunt.initConfig`~~
-* ~~`grunt.registerTask`~~
-* ~~`grunt.registerMultiTask`~~
-* ~~`grunt.renameTask`~~
-* ~~`grunt.loadTasks`~~
-* ~~`grunt.loadNpmTasks`~~
+* ~~`grunt.initConfig()`~~
+* ~~`grunt.registerTask()`~~
+* ~~`grunt.registerMultiTask()`~~
+* ~~`grunt.renameTask()`~~
+* ~~`grunt.loadTasks()`~~
+* ~~`grunt.loadNpmTasks()`~~
 * `grunt.option('debug');`
 * `grunt.package`
 * `grunt.version`
+
+### [grunt.config](http://gruntjs.com/api/grunt.config)
+
+* ~~`grunt.config.init`~~
+* `grunt.config()`
+* `grunt.config.get()`
+* `grunt.config.set()`
+* `grunt.config.process()`
+* `grunt.config.getRaw()`
+* `grunt.config.escape()`
+* ~~`grunt.config.require`~~
 
 # Grunt-init
 
