@@ -359,8 +359,8 @@ Grunt doesn't emit events
 * `grunt.log.wraptext()`
 * `grunt.log.table()`
 
-`--verbose`
 All methods are available on `grunt.verbose`/`grunt.verbose.or` and `grunt.log.verbose`/`grunt.log.notverbose`
+The `--verbose` flag causes these to print or not print
 
 # Grunt-init
 
