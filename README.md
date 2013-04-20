@@ -369,6 +369,17 @@ The `--verbose` flag causes these to print or not print
 * `grunt.option.init()`
 * `grunt.option.flags()`
 
+### [grunt.task](http://gruntjs.com/api/grunt.task)
+
+* ~~`grunt.task.registerTask()`~~
+* ~~`grunt.task.registerMultiTask()`~~
+* ~~`grunt.task.renameTask()`~~
+* ~~`grunt.task.loadTasks()`~~
+* ~~`grunt.task.loadNpmTasks()`~~
+* `grunt.task.run()`
+* `grunt.task.clearQueue()`
+* `grunt.task.normalizeMultiTaskFiles()`
+
 # Grunt-init
 
 * Split into it's own module
