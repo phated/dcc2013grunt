@@ -380,6 +380,14 @@ The `--verbose` flag causes these to print or not print
 * `grunt.task.clearQueue()`
 * `grunt.task.normalizeMultiTaskFiles()`
 
+### [grunt.template](http://gruntjs.com/api/grunt.template)
+
+* `grunt.template.process()`
+* `grunt.template.setDelimiters()`
+* `grunt.template.addDelimiters()`
+* `grunt.template.date()`
+* `grunt.template.today()`
+
 # Grunt-init
 
 * Split into it's own module
