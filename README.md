@@ -343,6 +343,25 @@ Grunt doesn't emit events
 * `grunt.file.minimatch`
 * `grunt.file.findup`
 
+* ### [grunt.log](http://gruntjs.com/api/grunt.log)
+
+* `grunt.log.write()`
+* `grunt.log.writeln()`
+* `grunt.log.error()`
+* `grunt.log.errorlns()`
+* `grunt.log.ok()`
+* `grunt.log.oklns()`
+* `grunt.log.subhead()`
+* `grunt.log.writeFlags()`
+* `grunt.log.debug()`
+* `grunt.log.wordlist()`
+* `grunt.log.uncolor()`
+* `grunt.log.wraptext()`
+* `grunt.log.table()`
+
+`--verbose`
+All methods are available on `grunt.verbose`/`grunt.verbose.or` and `grunt.log.verbose`/`grunt.log.notverbose`
+
 # Grunt-init
 
 * Split into it's own module
