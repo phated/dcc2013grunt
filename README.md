@@ -300,7 +300,7 @@ Grunt doesn't emit events
 
 * `grunt.file.defaultEncoding = 'utf8'`
 
-#### Read/Write
+#### [Read/Write](http://gruntjs.com/api/grunt.file#reading-and-writing)
 
 * `grunt.file.read()`
 * ~~`grunt.file.readJSON()`~~
@@ -309,26 +309,26 @@ Grunt doesn't emit events
 * `grunt.file.copy()`
 * `grunt.file.delete()`
 
-#### Directories
+#### [Directories](http://gruntjs.com/api/grunt.file#directories)
 
 * `grunt.file.mkdir()`
 * `grunt.file.recurse()`
 
-#### Globbing
+#### [Globbing](http://gruntjs.com/api/grunt.file#globbing-patterns)
 
 * `grunt.file.expand()`
 * `grunt.file.expandMapping()`
 * `grunt.file.match()`
 * `grunt.file.isMatch()`
 
-#### File Types
+#### [File Types](http://gruntjs.com/api/grunt.file#file-types)
 
 * `grunt.file.exists()`
 * `grunt.file.isLink()`
 * `grunt.file.isDir()`
 * `grunt.file.isFile()`
 
-#### Paths
+#### [Paths](http://gruntjs.com/api/grunt.file#paths)
 
 * `grunt.file.isPathAbsolute()`
 * `grunt.file.arePathsEquivalent()`
@@ -337,7 +337,7 @@ Grunt doesn't emit events
 * `grunt.file.isPathInCwd()`
 * `grunt.file.setBase()`
 
-#### External
+#### [External](http://gruntjs.com/api/grunt.file#external-libraries)
 
 * `grunt.file.glob`
 * `grunt.file.minimatch`
