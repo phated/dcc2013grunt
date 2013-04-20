@@ -296,6 +296,53 @@ Grunt doesn't emit events
 * `grunt.fail.warn()` (`grunt.warn`)
 * `grunt.fail.fatal()` (`grunt.fatal`)
 
+### [grunt.fail](http://gruntjs.com/api/grunt.file)
+
+* `grunt.file.defaultEncoding = 'utf8'`
+
+#### Read/Write
+
+* `grunt.file.read()`
+* ~~`grunt.file.readJSON()`~~
+* ~~`grunt.file.readYAML()`~~
+* `grunt.file.write()`
+* `grunt.file.copy()`
+* `grunt.file.delete()`
+
+#### Directories
+
+* `grunt.file.mkdir()`
+* `grunt.file.recurse()`
+
+#### Globbing
+
+* `grunt.file.expand()`
+* `grunt.file.expandMapping()`
+* `grunt.file.match()`
+* `grunt.file.isMatch()`
+
+#### File Types
+
+* `grunt.file.exists()`
+* `grunt.file.isLink()`
+* `grunt.file.isDir()`
+* `grunt.file.isFile()`
+
+#### Paths
+
+* `grunt.file.isPathAbsolute()`
+* `grunt.file.arePathsEquivalent()`
+* `grunt.file.doesPathContain()`
+* `grunt.file.isPathCwd()`
+* `grunt.file.isPathInCwd()`
+* `grunt.file.setBase()`
+
+#### External
+
+* `grunt.file.glob`
+* `grunt.file.minimatch`
+* `grunt.file.findup`
+
 # Grunt-init
 
 * Split into it's own module
