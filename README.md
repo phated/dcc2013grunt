@@ -382,11 +382,29 @@ The `--verbose` flag causes these to print or not print
 
 ### [grunt.template](http://gruntjs.com/api/grunt.template)
 
-* `grunt.template.process()`
-* `grunt.template.setDelimiters()`
-* `grunt.template.addDelimiters()`
-* `grunt.template.date()`
-* `grunt.template.today()`
+* `grunt.template.process(template [, options])`
+* `grunt.template.setDelimiters(name)`
+* `grunt.template.addDelimiters(name, opener, closer)`
+* `grunt.template.date(date, format)`
+* `grunt.template.today(format)`
+
+### [grunt.util](http://gruntjs.com/api/grunt.util)
+
+* `grunt.util.kindOf(value)`
+* `grunt.util.error(message [, origError])`
+* `grunt.util.linefeed`
+* `grunt.util.normalizelf(string)`
+* `grunt.util.recurse(object, callbackFunction, continueFunction)`
+* `grunt.util.repeat(n, str)`
+* `grunt.util.pluralize(n, str, separator)`
+* `grunt.util.spawn(options, doneFunction)`
+* `grunt.util.toArray(arrayLikeObject)`
+* `grunt.util.callbackify(syncOrAsyncFunction)`
+* `grunt.util.namespace`
+* `grunt.util.task`
+* `grunt.util._`
+* `grunt.util.async`
+* `grunt.util.hooker`
 
 # Grunt-init
 
