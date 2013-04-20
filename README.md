@@ -119,7 +119,7 @@ grunt.initConfig({
 });
 ```
 
-### Globbing
+### Globbing (via [node-glob](https://github.com/isaacs/node-glob) and [minimatch](https://github.com/isaacs/minimatch))
 
 ```javascript
 grunt.initConfig({
@@ -138,6 +138,8 @@ grunt.initConfig({
 	}
 });
 ```
+
+
 
 # Grunt-init
 
