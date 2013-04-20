@@ -102,7 +102,7 @@ grunt.initConfig({
 	}
 });
 
-grunt.loadNpmTasks('grunt-contrib-concat');
+grunt.loadNpmTasks('grunt-contrib-concat'); // grunt.loadTasks('some-local-task');
 ```
 
 **Going to skip `grunt.loadNpmTasks('grunt-contrib-concat');` below**
@@ -254,6 +254,20 @@ grunt.registerMultiTask('dcc', 'Awesome Multi Task for DCC', function(){
 	* Array of normalized `src` filenames
 * `this.data`
 	* Data associated with the current target
+
+# APIs
+
+### Top Level
+
+* ~~`grunt.initConfig`~~
+* ~~`grunt.registerTask`~~
+* ~~`grunt.registerMultiTask`~~
+* ~~`grunt.renameTask`~~
+* ~~`grunt.loadTasks`~~
+* ~~`grunt.loadNpmTasks`~~
+* `grunt.option('debug');`
+* `grunt.package`
+* `grunt.version`
 
 # Grunt-init
 
