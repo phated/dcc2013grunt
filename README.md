@@ -4,6 +4,7 @@
 * https://github.com/phated/grunt-jade
 * https://github.com/phated/grunt-dojo
 * https://github.com/phated/grunt-enyo
+* https://github.com/phated/volo-grunt
 * http://www.iceddev.com/
 * http://frozenjs.com/
 * http://hackphx.com/
