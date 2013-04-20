@@ -343,7 +343,7 @@ Grunt doesn't emit events
 * `grunt.file.minimatch`
 * `grunt.file.findup`
 
-* ### [grunt.log](http://gruntjs.com/api/grunt.log)
+### [grunt.log](http://gruntjs.com/api/grunt.log)
 
 * `grunt.log.write()`
 * `grunt.log.writeln()`
