@@ -88,16 +88,20 @@ grunt.initConfig({
 ### Let's add a task
 
 ```javascript
-grunt.initConfig({
-	concat: {
-		dist: {
-			files: {
-				'dist/oneFile.js': ['src/firstFile.js', 'src/secondFile.js']
+module.exports = function(grunt) {
+	grunt.initConfig({
+		concat: {
+			dist: {
+				files: {
+					'dist/oneFile.js': ['src/firstFile.js', 'src/secondFile.js']
+				}
 			}
 		}
-	}
-});
+	});
+};
 ```
+
+**Going to skip the `module.exports` wrapper below**
 
 ### Options (per task for all target or per single target)
 
