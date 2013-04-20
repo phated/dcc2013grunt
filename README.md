@@ -196,6 +196,65 @@ grunt.initConfig({
 });
 ```
 
+### Aliases
+
+```javascript
+grunt.registerTask('dist', ['jshint', 'qunit', 'concat', 'uglify']);
+```
+
+### Renaming
+
+```javascript
+grunt.renameTask('jshint', 'lint');
+```
+
+# Make Your Own Tasks
+
+### Basic
+
+```javascript
+grunt.registerTask('dcc', 'Awesome Task for DCC', function(){
+	grunt.log.writeln(Math.PI);
+});
+```
+
+### Multi
+
+```javascript
+grunt.registerMultiTask('dcc', 'Awesome Multi Task for DCC', function(){
+	grunt.log.writeln(this.files);
+});
+```
+
+### Inside
+
+* `this.async`
+	* Used for async operations
+* `this.requires`
+	* Ensures certain tasks have been run and succeeded before executing your task
+* `this.requiresConfig`
+	* Ensures certain properties exist in config before executing your task
+* `this.name`
+	* Reference the name of the task
+* `this.nameArgs`
+	* Reference the command used to execute task on command line
+* `this.args`
+	* Array of arguments passed to task (without current target in multi tasks)
+* `this.flags`
+	* Object of arguments passed to task (without current target in multi tasks)
+* `this.errorCount`
+	* Number of times grunt.log.error was called
+* `this.options`
+	* Function that mixes defaults into options passed in
+* `this.target`
+	* The target being executed
+* `this.files`
+	* Array of normalized files
+* `this.filesSrc`
+	* Array of normalized `src` filenames
+* `this.data`
+	* Data associated with the current target
+
 # Grunt-init
 
 * Split into it's own module
