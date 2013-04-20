@@ -280,6 +280,22 @@ grunt.registerMultiTask('dcc', 'Awesome Multi Task for DCC', function(){
 * `grunt.config.escape()`
 * ~~`grunt.config.require`~~
 
+### [grunt.event](http://gruntjs.com/api/grunt.event) (entire EventEmitter2 API)
+
+* `grunt.event.on()`
+* `grunt.event.off()`
+* `grunt.event.emit()`
+* `grunt.event.once()`
+* `grunt.event.many()`
+* `grunt.event.removeAllListeners()`
+
+Grunt doesn't emit events
+
+### [grunt.fail](http://gruntjs.com/api/grunt.fail)
+
+* `grunt.fail.warn()` (`grunt.warn`)
+* `grunt.fail.fatal()` (`grunt.fatal`)
+
 # Grunt-init
 
 * Split into it's own module
