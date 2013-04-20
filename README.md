@@ -265,7 +265,7 @@ grunt.registerMultiTask('dcc', 'Awesome Multi Task for DCC', function(){
 * ~~`grunt.renameTask()`~~
 * ~~`grunt.loadTasks()`~~
 * ~~`grunt.loadNpmTasks()`~~
-* `grunt.option('debug');`
+* `grunt.option();`
 * `grunt.package`
 * `grunt.version`
 
@@ -362,6 +362,12 @@ Grunt doesn't emit events
 All methods are available on `grunt.verbose`/`grunt.verbose.or` and `grunt.log.verbose`/`grunt.log.notverbose`
 
 The `--verbose` flag causes these to print or not print
+
+### [grunt.option](http://gruntjs.com/api/grunt.option)
+
+* ~~`grunt.option()`~~
+* `grunt.option.init()`
+* `grunt.option.flags()`
 
 # Grunt-init
 
