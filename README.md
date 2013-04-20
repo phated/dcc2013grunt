@@ -13,7 +13,7 @@
 
 # Grunt
 
-* Task Runner written in JavaScript, configured with JavaScript, tasks (plugins) written in JavaScript
+* Task Runner written in JavaScript, configured with JavaScript, with tasks (plugins) written in JavaScript, for your JavaScript project
 	![JS All The Way Down](http://lunar.lostgarden.com/gfx/TurtlesAllTheWayDown-small.jpg)
 * But Wait
 	> # This task requires you to have Ruby and Sass installed.
