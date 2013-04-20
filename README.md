@@ -265,36 +265,36 @@ grunt.registerMultiTask('dcc', 'Awesome Multi Task for DCC', function(){
 * ~~`grunt.renameTask()`~~
 * ~~`grunt.loadTasks()`~~
 * ~~`grunt.loadNpmTasks()`~~
-* `grunt.option();`
+* `grunt.option(optionName)`
 * `grunt.package`
 * `grunt.version`
 
 ### [grunt.config](http://gruntjs.com/api/grunt.config)
 
-* ~~`grunt.config.init`~~
-* `grunt.config()`
-* `grunt.config.get()`
-* `grunt.config.set()`
-* `grunt.config.process()`
-* `grunt.config.getRaw()`
-* `grunt.config.escape()`
-* ~~`grunt.config.require`~~
+* ~~`grunt.config.init(configObject)`~~
+* `grunt.config([prop [, value]])`
+* `grunt.config.get([prop])`
+* `grunt.config.set(prop, value)`
+* `grunt.config.process(value)`
+* `grunt.config.getRaw([prop])`
+* `grunt.config.escape(propString)`
+* ~~`grunt.config.requires(prop [, prop [, ...]])`~~
 
 ### [grunt.event](http://gruntjs.com/api/grunt.event) (entire EventEmitter2 API)
 
-* `grunt.event.on()`
-* `grunt.event.off()`
-* `grunt.event.emit()`
-* `grunt.event.once()`
-* `grunt.event.many()`
-* `grunt.event.removeAllListeners()`
+* `grunt.event.on(event, listener)`
+* `grunt.event.off(event, listener)`
+* `grunt.event.emit(event, [arg1], [arg2], [...])`
+* `grunt.event.once(event, listener)`
+* `grunt.event.many(event, timesToListen, listener)`
+* `grunt.event.removeAllListeners([event])`
 
 Grunt doesn't emit events
 
 ### [grunt.fail](http://gruntjs.com/api/grunt.fail)
 
-* `grunt.fail.warn()` (`grunt.warn`)
-* `grunt.fail.fatal()` (`grunt.fatal`)
+* `grunt.fail.warn(error [, errorcode])` (`grunt.warn`)
+* `grunt.fail.fatal(error [, errorcode])` (`grunt.fatal`)
 
 ### [grunt.file](http://gruntjs.com/api/grunt.file)
 
@@ -302,40 +302,40 @@ Grunt doesn't emit events
 
 * #### [Read/Write](http://gruntjs.com/api/grunt.file#reading-and-writing)
 
-* `grunt.file.read()`
-* ~~`grunt.file.readJSON()`~~
-* ~~`grunt.file.readYAML()`~~
-* `grunt.file.write()`
-* `grunt.file.copy()`
-* `grunt.file.delete()`
+* `grunt.file.read(filepath [, options])`
+* ~~`grunt.file.readJSON(filepath [, options])`~~
+* ~~`grunt.file.readYAML(filepath [, options])`~~
+* `grunt.file.write(filepath, contents [, options])`
+* `grunt.file.copy(srcpath, destpath [, options])`
+* `grunt.file.delete(filepath [, options])`
 
 * #### [Directories](http://gruntjs.com/api/grunt.file#directories)
 
-* `grunt.file.mkdir()`
-* `grunt.file.recurse()`
+* `grunt.file.mkdir(dirpath [, mode])`
+* `grunt.file.recurse(rootdir, callback)`
 
 * #### [Globbing](http://gruntjs.com/api/grunt.file#globbing-patterns)
 
-* `grunt.file.expand()`
-* `grunt.file.expandMapping()`
-* `grunt.file.match()`
-* `grunt.file.isMatch()`
+* `grunt.file.expand([options, ] patterns)`
+* `grunt.file.expandMapping(patterns, dest [, options])`
+* `grunt.file.match([options, ] patterns, filepaths)`
+* `grunt.file.isMatch([options, ] patterns, filepaths)`
 
 * #### [File Types](http://gruntjs.com/api/grunt.file#file-types)
 
-* `grunt.file.exists()`
-* `grunt.file.isLink()`
-* `grunt.file.isDir()`
-* `grunt.file.isFile()`
+* `grunt.file.exists(path1 [, path2 [, ...]])`
+* `grunt.file.isLink(path1 [, path2 [, ...]])`
+* `grunt.file.isDir(path1 [, path2 [, ...]])`
+* `grunt.file.isFile(path1 [, path2 [, ...]])`
 
 * #### [Paths](http://gruntjs.com/api/grunt.file#paths)
 
-* `grunt.file.isPathAbsolute()`
-* `grunt.file.arePathsEquivalent()`
-* `grunt.file.doesPathContain()`
-* `grunt.file.isPathCwd()`
-* `grunt.file.isPathInCwd()`
-* `grunt.file.setBase()`
+* `grunt.file.isPathAbsolute(path1 [, path2 [, ...]])`
+* `grunt.file.arePathsEquivalent(path1 [, path2 [, ...]])`
+* `grunt.file.doesPathContain(ancestorPath, descendantPath1 [, descendantPath2 [, ...]])`
+* `grunt.file.isPathCwd(path1 [, path2 [, ...]])`
+* `grunt.file.isPathInCwd(path1 [, path2 [, ...]])`
+* `grunt.file.setBase(path1 [, path2 [, ...]])`
 
 * #### [External](http://gruntjs.com/api/grunt.file#external-libraries)
 
@@ -345,19 +345,19 @@ Grunt doesn't emit events
 
 ### [grunt.log](http://gruntjs.com/api/grunt.log)
 
-* `grunt.log.write()`
-* `grunt.log.writeln()`
-* `grunt.log.error()`
-* `grunt.log.errorlns()`
-* `grunt.log.ok()`
-* `grunt.log.oklns()`
-* `grunt.log.subhead()`
-* `grunt.log.writeFlags()`
-* `grunt.log.debug()`
-* `grunt.log.wordlist()`
-* `grunt.log.uncolor()`
-* `grunt.log.wraptext()`
-* `grunt.log.table()`
+* `grunt.log.write(msg)`
+* `grunt.log.writeln([msg])`
+* `grunt.log.error([msg])`
+* `grunt.log.errorlns(msg)`
+* `grunt.log.ok([msg])`
+* `grunt.log.oklns(msg)`
+* `grunt.log.subhead(msg)`
+* `grunt.log.writeflags(obj, prefix)`
+* `grunt.log.debug(msg)`
+* `grunt.log.wordlist(arr [, options])`
+* `grunt.log.uncolor(str)`
+* `grunt.log.wraptext(width, text)`
+* `grunt.log.table(widths, texts)`
 
 All methods are available on `grunt.verbose`/`grunt.verbose.or` and `grunt.log.verbose`/`grunt.log.notverbose`
 
@@ -365,20 +365,20 @@ The `--verbose` flag causes these to print or not print
 
 ### [grunt.option](http://gruntjs.com/api/grunt.option)
 
-* ~~`grunt.option()`~~
-* `grunt.option.init()`
+* ~~`grunt.option(key[, val])`~~
+* `grunt.option.init([initObject])`
 * `grunt.option.flags()`
 
 ### [grunt.task](http://gruntjs.com/api/grunt.task)
 
-* ~~`grunt.task.registerTask()`~~
-* ~~`grunt.task.registerMultiTask()`~~
-* ~~`grunt.task.renameTask()`~~
-* ~~`grunt.task.loadTasks()`~~
-* ~~`grunt.task.loadNpmTasks()`~~
-* `grunt.task.run()`
+* ~~`grunt.task.registerTask(taskName, [, description], taskListOrFunction)`~~
+* ~~`grunt.task.registerMultiTask(taskName, description, taskFunction)`~~
+* ~~`grunt.task.renameTask(oldname, newname)`~~
+* ~~`grunt.task.loadTasks(tasksPath)`~~
+* ~~`grunt.task.loadNpmTasks(pluginName)`~~
+* `grunt.task.run(taskList)`
 * `grunt.task.clearQueue()`
-* `grunt.task.normalizeMultiTaskFiles()`
+* `grunt.task.normalizeMultiTaskFiles(data [, targetname])`
 
 ### [grunt.template](http://gruntjs.com/api/grunt.template)
 
